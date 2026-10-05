@@ -5,7 +5,7 @@ import SiteHeader from "@/components/site-header";
 export const metadata: Metadata = {
   title: "Free Restaurant Cleaning Templates & Logs",
   description:
-    "Browse free restaurant cleaning templates by use case: master checklist, cleaning schedule, kitchen, restroom, opening, closing, and inspection readiness.",
+    "Browse free restaurant cleaning templates by workflow: whole-restaurant, kitchen, restroom, opening, closing, inspection, and recurring task planning.",
   alternates: { canonical: "/templates/" },
 };
 
@@ -22,7 +22,7 @@ const templates = [
     href: "/templates/restaurant-cleaning-schedule-template/",
     bestFor: "Organizing when cleaning happens and who owns it.",
     frequency: "Opening / shift / daily / weekly / monthly",
-    description: "Schedule tasks by frequency, area, responsible role, and manager verification.",
+    description: "Plan recurring tasks by frequency, area, responsible role, and manager verification.",
   },
   {
     title: "Kitchen Cleaning Checklist",
@@ -65,7 +65,7 @@ const faqs = [
   {
     question: "Which cleaning template should I use?",
     answer:
-      "Choose the template that matches the job you are trying to control. Use the master checklist for the full restaurant, the schedule for timing and ownership, the kitchen checklist for BOH cleaning, and the restroom log for recurring restroom checks.",
+      "Choose the template that matches the job you are trying to control. Use the master checklist for the full restaurant, the recurring task planner for timing and ownership, the kitchen checklist for BOH cleaning, and the restroom log for recurring restroom checks.",
   },
   {
     question: "Are the templates free?",
@@ -94,8 +94,8 @@ export default function TemplatesIndexPage() {
         <h1>Free Restaurant Cleaning Templates & Logs</h1>
         <p className="article-lead">
           Choose the cleaning template that matches the job you need to control. Each page below is
-          focused on a specific workflow so you can use the right checklist, schedule, or log without
-          mixing different routines together.
+          focused on a specific workflow so you can choose the right resource without mixing
+          different routines together.
         </p>
         <div className="hero-actions">
           <a className="hero-cta" href="/downloads/cleaning-log.pdf" download>
@@ -113,8 +113,8 @@ export default function TemplatesIndexPage() {
           <h2>Pick the right template for each cleaning workflow</h2>
           <p>
             The library is organized by intent: use the master checklist for the whole restaurant,
-            the schedule for timing and ownership, and the area-specific templates for kitchen,
-            restroom, opening, closing, or inspection workflows.
+            the recurring task planner for timing and ownership, and the area-specific templates for
+            kitchen, restroom, opening, closing, or inspection workflows.
           </p>
         </div>
 
