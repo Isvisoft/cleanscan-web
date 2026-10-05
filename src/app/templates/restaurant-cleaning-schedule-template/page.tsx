@@ -3,9 +3,9 @@ import Link from "next/link";
 import SiteHeader from "@/components/site-header";
 
 export const metadata: Metadata = {
-  title: "Restaurant Cleaning Schedule Template: Free Printable",
+  title: "Free Restaurant Cleaning Schedule Template | Daily & Weekly",
   description:
-    "Free restaurant cleaning schedule template with opening, shift, daily, weekly, and monthly tasks. Organize timing, frequency, ownership, and verification.",
+    "Free restaurant cleaning schedule template for daily, weekly, opening, and closing tasks. Assign frequency, owner, and manager verification.",
   alternates: { canonical: "/templates/restaurant-cleaning-schedule-template/" },
 };
 
@@ -52,10 +52,10 @@ export default function Page() {
       <SiteHeader />
       <article className="article-wrap">
         <p className="article-kicker">Free Printable Schedule</p>
-        <h1>Restaurant Cleaning Schedule Template (Free Printable)</h1>
+        <h1>Free Restaurant Cleaning Schedule Template</h1>
         <p className="article-lead">
-          Use this restaurant cleaning schedule template to organize opening, service, closing,
-          daily, weekly, and monthly cleaning by frequency and responsible role.
+          Use this cleaning schedule template for a restaurant to organize opening, service,
+          closing, daily, weekly, and monthly cleaning by frequency and responsible role.
         </p>
 
         <div className="article-actions">
@@ -103,6 +103,22 @@ export default function Page() {
         </section>
 
         <section>
+          <h2>Weekly restaurant cleaning schedule template</h2>
+          <p>
+            Use a weekly restaurant cleaning schedule for work that should not be repeated every
+            shift but still needs a fixed owner and verification. Typical weekly tasks include
+            storage shelves, equipment exteriors, drains, hard-to-reach edges, walls, and a manager
+            review of missed or overdue cleaning.
+          </p>
+          <ul>
+            <li>Assign each weekly task to a specific role.</li>
+            <li>Set a fixed day or service window instead of leaving the task open-ended.</li>
+            <li>Record completion and any corrective action required.</li>
+            <li>Review recurring misses during the weekly manager check.</li>
+          </ul>
+        </section>
+
+        <section>
           <h2>How to organize a restaurant cleaning schedule</h2>
           <h3>Opening tasks</h3>
           <p>Schedule readiness checks before service for guest areas, restrooms, service stations, supplies, floors, and kitchen prep areas.</p>
@@ -112,6 +128,15 @@ export default function Page() {
           <p>Assign end-of-day cleaning by area and role, including waste, floors, cookline surfaces, service areas, restrooms, and manager sign-off.</p>
           <h3>Weekly and monthly tasks</h3>
           <p>Use weekly rotations for deep-cleaning zones and monthly reviews for recurring misses, task ownership, supplies, and schedule updates.</p>
+        </section>
+
+        <section>
+          <h2>How to use this printable restaurant cleaning schedule</h2>
+          <p>
+            Print the table for a paper-based routine or copy it into your existing operations
+            process. Keep frequency and ownership visible, leave space for completion checks, and
+            update the schedule whenever staffing, equipment, or service patterns change.
+          </p>
         </section>
 
         <section>
