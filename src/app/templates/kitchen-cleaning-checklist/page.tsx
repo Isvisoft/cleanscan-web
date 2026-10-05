@@ -4,10 +4,10 @@ import SiteHeader from "@/components/site-header";
 
 const canonical = "/templates/kitchen-cleaning-checklist/";
 const description =
-  "Free kitchen cleaning checklist for restaurants and commercial kitchens. Includes shift, daily, and weekly tasks for prep areas, cooklines, sinks, storage, floors, and equipment.";
+  "Free restaurant kitchen cleaning checklist for shift, daily, and weekly cleaning. Covers prep areas, cooklines, sinks, storage, floors, drains, and equipment.";
 
 export const metadata: Metadata = {
-  title: "Kitchen Cleaning Checklist for Restaurants & Commercial Kitchens",
+  title: "Restaurant Kitchen Cleaning Checklist | Free Template",
   description,
   alternates: { canonical },
 };
@@ -77,7 +77,7 @@ const faqItems = [
   },
   {
     question: "What should be included in a restaurant kitchen cleaning checklist?",
-    answer: "Include area, task, frequency, responsible role, and verification for shift-based, daily, and weekly kitchen cleaning work.",
+    answer: "A restaurant kitchen cleaning checklist should include area, task, frequency, responsible role, and verification for shift-based, daily, and weekly kitchen cleaning work.",
   },
   {
     question: "What is a kitchen line check template?",
@@ -104,10 +104,11 @@ export default function Page() {
       <SiteHeader />
       <article className="article-wrap">
         <p className="article-kicker">Free Kitchen Template</p>
-        <h1>Kitchen Cleaning Checklist for Restaurants & Commercial Kitchens</h1>
+        <h1>Restaurant Kitchen Cleaning Checklist (Free Template)</h1>
         <p className="article-lead">
-          Use this free kitchen cleaning checklist to organize shift-based, daily, and weekly cleaning
-          across prep areas, cooklines, sinks, dish areas, floors, drains, equipment, and storage.
+          Use this free restaurant kitchen cleaning checklist to organize shift-based, daily, and
+          weekly cleaning across prep areas, cooklines, sinks, dish areas, floors, drains, equipment,
+          and storage.
         </p>
 
         <div className="hero-actions article-actions">
@@ -117,11 +118,11 @@ export default function Page() {
         </div>
 
         <section id="commercial-kitchen-cleaning-checklist">
-          <h2>Commercial kitchen cleaning checklist template</h2>
+          <h2>Restaurant & commercial kitchen cleaning checklist</h2>
           <p>
-            This page is focused specifically on BOH and commercial kitchen cleaning. Use the table
-            below as the kitchen-specific checklist, rather than the broader restaurant-wide master
-            checklist.
+            This page is focused specifically on restaurant kitchen and BOH cleaning. Use the table
+            below as a commercial kitchen cleaning checklist for shift-based, daily, and weekly work,
+            rather than the broader restaurant-wide master checklist.
           </p>
           <div className="template-table-wrap">
             <table className="template-table">
@@ -147,6 +148,15 @@ export default function Page() {
               </tbody>
             </table>
           </div>
+        </section>
+
+        <section>
+          <h2>Printable restaurant kitchen cleaning checklist</h2>
+          <p>
+            Use the table above as a printable starting point for your kitchen routine. Keep the
+            area, task, frequency, responsible role, and verification columns together so staff can
+            see exactly what must be done and managers can review completion consistently.
+          </p>
         </section>
 
         <section>
