@@ -163,6 +163,7 @@ export default function Page() {
           <ul>
             <li><Link href="/templates/restaurant-cleaning-checklist/">Restaurant cleaning checklist</Link></li>
             <li><Link href="/templates/kitchen-cleaning-checklist/">Kitchen cleaning checklist</Link></li>
+            <li><Link href="/templates/restaurant-deep-cleaning-checklist/">Restaurant deep cleaning checklist</Link></li>
             <li><Link href="/templates/restaurant-opening-checklist/">Restaurant opening checklist</Link></li>
             <li><Link href="/templates/restaurant-closing-cleaning-checklist/">Restaurant closing cleaning checklist</Link></li>
             <li><Link href="/templates/restroom-cleaning-log/">Restroom cleaning log</Link></li>
