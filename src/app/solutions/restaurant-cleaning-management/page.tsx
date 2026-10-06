@@ -131,6 +131,18 @@ const templates = [
     href: "/templates/kitchen-cleaning-checklist/",
   },
   {
+    title: "Bar Cleaning Checklist",
+    href: "/templates/bar-cleaning-checklist/",
+  },
+  {
+    title: "Dining Room Cleaning Checklist",
+    href: "/templates/restaurant-dining-room-cleaning-checklist/",
+  },
+  {
+    title: "Restaurant Deep Cleaning Checklist",
+    href: "/templates/restaurant-deep-cleaning-checklist/",
+  },
+  {
     title: "Opening Checklist",
     href: "/templates/restaurant-opening-checklist/",
   },
