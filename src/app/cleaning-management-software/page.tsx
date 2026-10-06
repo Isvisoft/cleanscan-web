@@ -81,6 +81,19 @@ export default function Page() {
         </section>
 
         <section>
+          <h2>Restaurant cleaning management</h2>
+          <p>
+            For restaurants, cleaning management means coordinating kitchen, dining room, bar,
+            restroom, opening, closing, deep-cleaning, and inspection-related routines without
+            relying on separate paper sheets.
+          </p>
+          <p>
+            See the dedicated <Link href="/solutions/restaurant-cleaning-management/">restaurant cleaning management software</Link>{" "}
+            page and the <Link href="/templates/">free restaurant cleaning templates</Link>.
+          </p>
+        </section>
+
+        <section>
           <h2>Who uses cleaning management software?</h2>
           <div className="commercial-list-grid">
             {useCases.map((item) => <div className="commercial-list-item" key={item}>{item}</div>)}
