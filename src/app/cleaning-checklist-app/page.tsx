@@ -69,6 +69,19 @@ export default function Page() {
         </section>
 
         <section>
+          <h2>Cleaning checklist app for restaurants</h2>
+          <p>
+            Restaurants need different checklists for kitchen, dining room, bar, restrooms, opening,
+            closing, and deep cleaning. CleanScan keeps those routines separate by area while giving
+            managers one place to review completion and missed work.
+          </p>
+          <p>
+            See the <Link href="/solutions/restaurant-cleaning-management/">restaurant cleaning management software</Link>{" "}
+            use case or start with the <Link href="/templates/">restaurant cleaning template library</Link>.
+          </p>
+        </section>
+
+        <section>
           <h2>Cleaning checklist app for multiple spaces</h2>
           <p>
             CleanScan can manage different routines for each monitored space. A restroom can have
