@@ -60,6 +60,19 @@ export default function Page() {
         </section>
 
         <section>
+          <h2>Restaurant cleaning schedule app</h2>
+          <p>
+            Restaurant managers can schedule separate routines for opening, service, closing,
+            kitchen, dining room, bar, restrooms, and weekly deep cleaning. Each task keeps its own
+            owner and frequency while managers review the operation from one place.
+          </p>
+          <p>
+            Start with the <Link href="/templates/restaurant-cleaning-schedule-template/">free restaurant cleaning schedule template</Link>{" "}
+            or see <Link href="/solutions/restaurant-cleaning-management/">CleanScan for restaurant cleaning management</Link>.
+          </p>
+        </section>
+
+        <section>
           <h2>Schedule cleaning by space and frequency</h2>
           <p>
             Different spaces need different cleaning frequencies. Restrooms may need multiple checks
