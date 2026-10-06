@@ -32,6 +32,27 @@ const templates = [
     description: "Prep areas, cookline, sinks, storage, floors, drains, equipment, and kitchen verification.",
   },
   {
+    title: "Bar Cleaning Checklist",
+    href: "/templates/bar-cleaning-checklist/",
+    bestFor: "Restaurant and hospitality bar cleaning.",
+    frequency: "Opening / shift / closing / weekly",
+    description: "Counters, taps, sinks, glassware areas, floors, waste, storage, equipment, and manager review.",
+  },
+  {
+    title: "Restaurant Dining Room Cleaning Checklist",
+    href: "/templates/restaurant-dining-room-cleaning-checklist/",
+    bestFor: "Guest-facing FOH cleaning.",
+    frequency: "Opening / service / closing / weekly",
+    description: "Tables, chairs, floors, service stations, high-touch points, detail cleaning, and verification.",
+  },
+  {
+    title: "Restaurant Deep Cleaning Checklist",
+    href: "/templates/restaurant-deep-cleaning-checklist/",
+    bestFor: "Lower-frequency detail cleaning and rotations.",
+    frequency: "Weekly / monthly",
+    description: "Equipment edges, under-equipment zones, drains, storage, walls, floors, fixtures, and manager review.",
+  },
+  {
     title: "Restroom Cleaning Log",
     href: "/templates/restroom-cleaning-log/",
     bestFor: "Guest restroom checks and cleaning records.",
@@ -114,7 +135,7 @@ export default function TemplatesIndexPage() {
           <p>
             The library is organized by intent: use the master checklist for the whole restaurant,
             the recurring task planner for timing and ownership, and the area-specific templates for
-            kitchen, restroom, opening, closing, or inspection workflows.
+            kitchen, bar, dining room, restroom, deep cleaning, opening, closing, or inspection workflows.
           </p>
         </div>
 
