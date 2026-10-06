@@ -183,6 +183,7 @@ export default function Page() {
             Use this page for kitchen and BOH cleaning only. For dining areas, restrooms, bar, waste,
             storage, and the full operation, use the <Link href="/templates/restaurant-cleaning-checklist/">restaurant cleaning checklist</Link>.
             For timing and ownership, use the <Link href="/templates/restaurant-cleaning-schedule-template/">restaurant cleaning schedule template</Link>.
+            For lower-frequency detail work, use the <Link href="/templates/restaurant-deep-cleaning-checklist/">restaurant deep cleaning checklist</Link>.
           </p>
         </section>
 
