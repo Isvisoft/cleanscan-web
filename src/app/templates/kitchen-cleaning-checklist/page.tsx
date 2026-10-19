@@ -193,6 +193,10 @@ export default function Page() {
             CleanScan digitizes the kitchen cleaning sheet into recurring tasks and gives managers
             completion tracking plus metrics by space and across the operation.
           </p>
+          <p>
+            Use a <Link href="/cleaning-checklist-app/">cleaning checklist app</Link> when your
+            kitchen needs digital task assignments and completion records instead of paper logs.
+          </p>
           <Link className="hero-cta" href="/solutions/restaurant-cleaning-management/">See CleanScan for Restaurants</Link>
         </section>
 
