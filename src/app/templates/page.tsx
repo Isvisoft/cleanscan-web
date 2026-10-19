@@ -205,6 +205,13 @@ export default function TemplatesIndexPage() {
             CleanScan turns cleaning routines into recurring tasks with assignees, schedules,
             completion tracking, digital records, and manager visibility.
           </p>
+          <p>
+            Ready to move beyond paper? Use the{" "}
+            <Link href="/cleaning-checklist-app/">cleaning checklist app</Link> to track completed work,
+            the <Link href="/cleaning-schedule-app/">cleaning schedule app</Link> to automate recurring tasks,
+            or <Link href="/cleaning-management-software/">cleaning management software</Link> to oversee
+            multiple spaces.
+          </p>
           <div className="hero-actions cta-actions">
             <Link className="hero-cta" href="/solutions/restaurant-cleaning-management/">
               See CleanScan for Restaurants
