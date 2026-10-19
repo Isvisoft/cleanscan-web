@@ -191,6 +191,13 @@ export default function Page() {
 
         <section>
           <h2>How CleanScan helps</h2>
+          <p>
+            Explore <Link href="/cleaning-management-software/">cleaning management software</Link> for
+            coordinating work across spaces, a{" "}
+            <Link href="/cleaning-checklist-app/">cleaning checklist app</Link> for digital task
+            completion, or a <Link href="/cleaning-schedule-app/">cleaning schedule app</Link> for
+            shift-based recurring work.
+          </p>
           <div className="commercial-flow">
             {workflowSteps.map((step) => (
               <section key={step.title}>
