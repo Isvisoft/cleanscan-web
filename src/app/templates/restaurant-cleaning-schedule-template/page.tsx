@@ -153,6 +153,10 @@ export default function Page() {
             CleanScan helps restaurant managers move from a static schedule to recurring tasks with
             assignees, due times, completion history, overdue visibility, and manager follow-up.
           </p>
+          <p>
+            For recurring schedules across shifts and spaces, see the{" "}
+            <Link href="/cleaning-schedule-app/">cleaning schedule app</Link>.
+          </p>
           <Link className="hero-cta" href="/solutions/restaurant-cleaning-management/">
             See Restaurant Cleaning Management
           </Link>
