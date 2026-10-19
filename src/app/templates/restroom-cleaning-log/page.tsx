@@ -115,6 +115,11 @@ export default function Page() {
             Set the frequency based on traffic, service hours, staff capacity, and local requirements.
             High-traffic locations may need multiple checks per day or checks during every service block.
           </p>
+          <p>
+            If several shifts share the same restroom log, a{" "}
+            <Link href="/solutions/restroom-quality-control/">digital restroom cleaning log</Link>{" "}
+            can show managers which checks are complete and which still need attention.
+          </p>
         </section>
 
         <section className="article-cta-box">
@@ -123,7 +128,7 @@ export default function Page() {
             CleanScan schedules recurring checks, keeps the completion history, and can publish a
             public QR page showing when the restroom was last cleaned.
           </p>
-          <Link className="hero-cta" href="/solutions/restroom-quality-control/">See Restroom Quality Control</Link>
+          <Link className="hero-cta" href="/solutions/restroom-quality-control/">See Digital Restroom Cleaning Logs</Link>
         </section>
 
         <section>

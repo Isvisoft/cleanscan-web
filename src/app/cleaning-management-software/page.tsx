@@ -5,7 +5,7 @@ import SiteHeader from "@/components/site-header";
 export const metadata: Metadata = {
   title: "Cleaning Management Software for Teams & Facilities",
   description:
-    "Cleaning management software for teams that need recurring schedules, digital checklists, completion tracking, QR status pages, records, and cleaning metrics.",
+    "Manage recurring cleaning tasks across restaurants and facilities. Assign work, track missed checks, keep digital records, and review cleaning performance by space.",
   alternates: { canonical: "/cleaning-management-software/" },
 };
 
@@ -35,9 +35,9 @@ export default function Page() {
         <p className="article-kicker">Cleaning Operations Software</p>
         <h1>Cleaning Management Software for Teams & Facilities</h1>
         <p className="article-lead">
-          CleanScan is cleaning management software for teams that need to plan recurring work,
-          replace paper cleaning sheets, track completion, and keep managers visible across every
-          monitored space.
+          Know which cleaning tasks have been completed without collecting paper sheets.
+          CleanScan helps managers assign recurring work, track missed checks, and review cleaning
+          records across restaurants, restrooms, and other monitored spaces.
         </p>
 
         <div className="hero-actions article-actions">
@@ -52,6 +52,26 @@ export default function Page() {
             Cleaning management software organizes recurring cleaning tasks, schedules, ownership,
             completion records, and manager review in one system. Instead of collecting paper logs,
             managers can see what should happen, what has been completed, and what still needs action.
+          </p>
+        </section>
+
+        <section>
+          <h2>How cleaning task management works</h2>
+          <p>
+            Instead of building a new spreadsheet for every shift, managers define recurring
+            cleaning tasks once and check their progress from one place.
+          </p>
+          <ol>
+            <li><strong>Plan:</strong> create cleaning routines for each monitored space and frequency.</li>
+            <li><strong>Assign:</strong> give tasks to the responsible role, team, or shift.</li>
+            <li><strong>Track:</strong> review completed, pending, and overdue cleaning work.</li>
+            <li><strong>Improve:</strong> use completion history and metrics to identify repeat gaps.</li>
+          </ol>
+          <p>
+            For individual task sign-offs, see the{" "}
+            <Link href="/cleaning-checklist-app/">cleaning checklist app</Link>.
+            For recurring timing and ownership, see the{" "}
+            <Link href="/cleaning-schedule-app/">cleaning schedule app</Link>.
           </p>
         </section>
 
@@ -90,6 +110,20 @@ export default function Page() {
           <p>
             See the dedicated <Link href="/solutions/restaurant-cleaning-management/">restaurant cleaning management software</Link>{" "}
             page and the <Link href="/templates/">free restaurant cleaning templates</Link>.
+          </p>
+        </section>
+
+        <section>
+          <h2>When to replace cleaning spreadsheets</h2>
+          <p>
+            Paper sheets or spreadsheets can work for a small, stable routine. Cleaning management
+            software becomes more useful when several areas need different frequencies, multiple
+            shifts share responsibility, or managers spend time checking whether work happened.
+          </p>
+          <p>
+            With digital cleaning task tracking, the team can record completion as part of the
+            routine and managers can review outstanding work by space instead of combining separate
+            files. That is the difference between storing a checklist and controlling the process.
           </p>
         </section>
 

@@ -3,9 +3,9 @@ import Link from "next/link";
 import SiteHeader from "@/components/site-header";
 
 export const metadata: Metadata = {
-  title: "Cleaning Checklist App for Teams & Businesses",
+  title: "Cleaning Checklist App for Restaurants & Teams | CleanScan",
   description:
-    "A cleaning checklist app for recurring tasks, assignments, completion tracking, digital records, QR cleaning status, and manager visibility.",
+    "Replace paper restaurant cleaning checklists with an app for kitchen, restroom, opening and closing tasks. Assign work, track completion, and show QR cleaning status.",
   alternates: { canonical: "/cleaning-checklist-app/" },
 };
 
@@ -25,11 +25,11 @@ export default function Page() {
       <SiteHeader />
       <article className="article-wrap">
         <p className="article-kicker">Digital Cleaning Checklists</p>
-        <h1>Cleaning Checklist App for Teams & Businesses</h1>
+        <h1>Cleaning Checklist App for Restaurants & Teams</h1>
         <p className="article-lead">
-          CleanScan turns paper cleaning checklists into recurring digital workflows. Staff see what
-          needs to be cleaned, managers see what has been completed, and each space keeps a clear
-          cleaning history.
+          Stop checking paper sheets to find out whether cleaning happened. CleanScan turns
+          restaurant and facility checklists into assigned digital tasks, so staff know what to do
+          and managers can review completed, pending, and overdue work by space.
         </p>
 
         <div className="hero-actions article-actions">
@@ -69,15 +69,22 @@ export default function Page() {
         </section>
 
         <section>
-          <h2>Cleaning checklist app for restaurants</h2>
+          <h2>Restaurant checklist app for kitchen, restrooms, and shifts</h2>
           <p>
-            Restaurants need different checklists for kitchen, dining room, bar, restrooms, opening,
-            closing, and deep cleaning. CleanScan keeps those routines separate by area while giving
-            managers one place to review completion and missed work.
+            A restaurant checklist app is useful when opening, service, and closing checks involve
+            different people. CleanScan keeps cleaning routines separate by area while managers
+            review completion from one place instead of collecting sign-off sheets.
           </p>
+          <ul>
+            <li><strong>Kitchen:</strong> assign cleaning to prep areas, cooklines, sinks, and storage.</li>
+            <li><strong>Restrooms:</strong> schedule checks and record supplies or issues during service.</li>
+            <li><strong>Opening and closing:</strong> give each shift a repeatable list of cleaning tasks.</li>
+            <li><strong>Manager review:</strong> see pending and overdue tasks before the next shift.</li>
+          </ul>
           <p>
-            See the <Link href="/solutions/restaurant-cleaning-management/">restaurant cleaning management software</Link>{" "}
-            use case or start with the <Link href="/templates/">restaurant cleaning template library</Link>.
+            For the full operation, see <Link href="/solutions/restaurant-cleaning-management/">restaurant cleaning management software</Link>.
+            To try a paper-based routine first, browse the{" "}
+            <Link href="/templates/">free restaurant cleaning templates</Link>.
           </p>
         </section>
 
@@ -114,6 +121,7 @@ export default function Page() {
             <li><Link href="/cleaning-management-software/">Cleaning management software</Link></li>
             <li><Link href="/cleaning-schedule-app/">Cleaning schedule app</Link></li>
             <li><Link href="/blog/restaurant-cleaning-checklist-app/">Restaurant cleaning checklist app guide</Link></li>
+            <li><Link href="/solutions/restroom-quality-control/">Digital restroom cleaning logs</Link></li>
           </ul>
         </section>
       </article>

@@ -3,9 +3,9 @@ import Link from "next/link";
 import SiteHeader from "@/components/site-header";
 
 export const metadata: Metadata = {
-  title: "Restaurant Restroom Quality Control Software",
+  title: "Digital Restroom Cleaning Log & QR Status | CleanScan",
   description:
-    "Restaurant restroom quality control software for time-block checks, role assignments, incident notes, corrective actions, and manager visibility.",
+    "Replace paper restroom logs with scheduled digital checks, completion history, issue tracking, and a public QR page showing the last cleaning time.",
   alternates: { canonical: "/solutions/restroom-quality-control/" },
 };
 
@@ -15,6 +15,7 @@ const workflowSteps = [
   "Assign each check to a role or shift.",
   "Record issues, supplies, and corrective actions.",
   "Let managers review completion in real time.",
+  "Display the latest cleaning status through a public QR page.",
 ];
 
 const trackingItems = [
@@ -42,10 +43,11 @@ export default function Page() {
       <SiteHeader />
       <article className="article-wrap">
         <p className="article-kicker">Solution</p>
-        <h1>Restaurant Restroom Quality Control Software</h1>
+        <h1>Digital Restroom Cleaning Logs for Restaurants</h1>
         <p className="article-lead">
-          Track restroom checks by time block, assign responsibilities, record incidents, and give
-          managers real-time visibility across every shift.
+          Replace the restroom cleaning sheet with scheduled digital checks. Staff record completed
+          work and issues; managers see what is pending, and a public QR page can show when the
+          restroom was last cleaned.
         </p>
         <div className="hero-actions article-actions">
           <Link className="hero-cta" href="/contact/">
@@ -77,6 +79,29 @@ export default function Page() {
               <li key={step}>{step}</li>
             ))}
           </ol>
+        </section>
+
+        <section>
+          <h2>QR restroom cleaning status: how it works</h2>
+          <p>
+            Cleaning staff complete their assigned restroom checks in CleanScan. The digital log
+            keeps a record for managers, including when work was completed and any issues reported.
+          </p>
+          <p>
+            A printable QR code can be placed near the restroom. When someone scans it, the public
+            status page shows when the space was last cleaned. The QR page is for visibility; it does
+            not replace the team's digital completion records.
+          </p>
+        </section>
+
+        <section>
+          <h2>When to use a digital restroom cleaning log</h2>
+          <p>
+            A simple printable <Link href="/templates/restroom-cleaning-log/">restroom cleaning log</Link>{" "}
+            may be enough for one low-traffic area. A digital log is useful when multiple shifts
+            share responsibility, staff miss checks during busy periods, or managers need to review
+            cleaning without collecting paper sheets.
+          </p>
         </section>
 
         <section>
@@ -129,7 +154,8 @@ export default function Page() {
           <h2>Digitize your restroom cleaning log</h2>
           <p>
             CleanScan helps restaurants replace paper restroom logs with assigned checks, incident
-            notes, completion history, and manager visibility during service.
+            notes, completion history, manager visibility during service, and a public QR status page
+            showing the most recent cleaning time.
           </p>
           <Link className="hero-cta" href="/contact/">
             Request a Demo
