@@ -208,6 +208,12 @@ export default function Page() {
             CleanScan turns this checklist into recurring digital tasks with assignees, timestamps,
             completion tracking, and manager visibility.
           </p>
+          <p>
+            To replace paper sign-off sheets, see the{" "}
+            <Link href="/cleaning-checklist-app/">cleaning checklist app</Link>. If you also need to
+            schedule tasks across shifts, explore the{" "}
+            <Link href="/cleaning-schedule-app/">cleaning schedule app</Link>.
+          </p>
           <div className="hero-actions">
             <Link className="hero-cta" href="/solutions/restaurant-cleaning-management/">
               See Restaurant Cleaning Management
