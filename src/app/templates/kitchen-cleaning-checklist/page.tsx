@@ -187,6 +187,17 @@ export default function Page() {
           </p>
         </section>
 
+        <section>
+          <h2>Kitchen closing checklist and cleaning schedule</h2>
+          <p>
+            For the end-of-shift handoff, use the{" "}
+            <Link href="/templates/kitchen-closing-checklist/">kitchen closing checklist</Link>.
+            If you need to plan task frequencies and ownership across the whole week, see the{" "}
+            <Link href="/templates/kitchen-cleaning-schedule/">kitchen cleaning schedule</Link>.
+            This page remains the main reference for what to clean in each kitchen area.
+          </p>
+        </section>
+
         <section className="article-cta-box commercial-final-cta">
           <h2>Run your kitchen checklist digitally</h2>
           <p>
