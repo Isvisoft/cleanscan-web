@@ -1253,3 +1253,41 @@ a { text-decoration: none; color: inherit; }
     width: 100%;
   }
 }
+
+/* Dedicated printable SEO checklists: keep site navigation and CTAs off the printed copy. */
+.print-template-button {
+  border: 0;
+  cursor: pointer;
+  font: inherit;
+}
+.print-only { display: none; }
+
+@media print {
+  @page { size: auto; margin: 12mm; }
+  body, .article-wrap { background: #fff !important; color: #000 !important; }
+  .topbar, .seo-template-page > :not(.template-print-area) { display: none !important; }
+  .seo-template-page { width: 100% !important; max-width: none !important; margin: 0 !important; padding: 0 !important; }
+  .seo-template-page > .template-print-area {
+    display: block !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+    box-shadow: none !important;
+    background: #fff !important;
+  }
+  .seo-template-page .template-print-area h2 { color: #000 !important; font-size: 18pt !important; margin-bottom: 10px; }
+  .seo-template-page .template-print-area p { color: #000 !important; }
+  .seo-template-page .print-only { display: block !important; margin: 12px 0 !important; }
+  .seo-template-page .template-table-wrap { overflow: visible !important; border: 0 !important; box-shadow: none !important; }
+  .seo-template-page .template-table { width: 100% !important; min-width: 0 !important; border-collapse: collapse !important; }
+  .seo-template-page .template-table th,
+  .seo-template-page .template-table td {
+    padding: 6px !important;
+    border: 1px solid #555 !important;
+    color: #000 !important;
+    background: #fff !important;
+    font-size: 9pt !important;
+    line-height: 1.2 !important;
+  }
+  .seo-template-page .template-table tr { break-inside: avoid; }
+}

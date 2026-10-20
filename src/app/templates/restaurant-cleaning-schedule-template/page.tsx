@@ -147,6 +147,15 @@ export default function Page() {
           </p>
         </section>
 
+        <section>
+          <h2>Kitchen-specific cleaning schedules</h2>
+          <p>
+            This page covers the restaurant-wide schedule. To organize recurring prep, cookline,
+            dish-area and kitchen cleaning by shift and week, use the{" "}
+            <Link href="/templates/kitchen-cleaning-schedule/">kitchen cleaning schedule template</Link>.
+          </p>
+        </section>
+
         <section className="article-cta-box">
           <h2>Turn the schedule into recurring digital tasks</h2>
           <p>
