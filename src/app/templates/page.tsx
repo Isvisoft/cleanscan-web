@@ -82,6 +82,13 @@ const templates = [
   },
 ];
 
+const additionalTemplates = [
+  { title: "Commercial Cleaning Checklist", href: "/templates/commercial-cleaning-checklist/", description: "Shared facilities, entrances, restrooms and common commercial spaces." },
+  { title: "Office Cleaning Checklist", href: "/templates/office-cleaning-checklist/", description: "Workstations, meeting rooms, office kitchens and shared equipment." },
+  { title: "Kitchen Closing Checklist", href: "/templates/kitchen-closing-checklist/", description: "Back-of-house end-of-shift duties and manager handoff." },
+  { title: "Kitchen Cleaning Schedule", href: "/templates/kitchen-cleaning-schedule/", description: "Shift, daily and weekly BOH tasks with ownership." },
+];
+
 const faqs = [
   {
     question: "Which cleaning template should I use?",
@@ -149,6 +156,26 @@ export default function TemplatesIndexPage() {
               <Link className="hero-cta" href={item.href}>
                 View {item.title}
               </Link>
+            </article>
+          ))}
+        </div>
+      </section>
+
+      <section className="section wrap" id="additional-cleaning-templates">
+        <div className="section-heading">
+          <p className="article-kicker">More Workplaces and Workflows</p>
+          <h2>Commercial, office and kitchen-specific templates</h2>
+          <p>
+            Need a routine for an office or shared commercial building, or a narrower kitchen closing
+            or cleaning schedule? Choose a dedicated printable template instead of a restaurant-wide checklist.
+          </p>
+        </div>
+        <div className="cards two template-grid">
+          {additionalTemplates.map((item) => (
+            <article className="card-v1 template-card" key={item.href}>
+              <h3>{item.title}</h3>
+              <p>{item.description}</p>
+              <Link className="hero-cta" href={item.href}>View {item.title}</Link>
             </article>
           ))}
         </div>
