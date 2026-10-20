@@ -93,6 +93,15 @@ export default function Page() {
           </p>
         </section>
 
+        <section>
+          <h2>Need only the kitchen closing tasks?</h2>
+          <p>
+            This restaurant closing checklist includes dining, bar, restrooms and waste as well as BOH.
+            For prep areas, cookline, dish station, kitchen floors and kitchen manager handoff only,
+            use the <Link href="/templates/kitchen-closing-checklist/">kitchen closing checklist</Link>.
+          </p>
+        </section>
+
         <section className="article-cta-box commercial-final-cta">
           <h2>Track closing completion instead of checking paper sheets</h2>
           <p>
