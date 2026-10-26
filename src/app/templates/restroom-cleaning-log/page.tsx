@@ -3,9 +3,9 @@ import Link from "next/link";
 import SiteHeader from "@/components/site-header";
 
 export const metadata: Metadata = {
-  title: "Restroom Cleaning Log & Checklist Template (Free Printable)",
+  title: "Restroom & Washroom Cleaning Log (Free Printable)",
   description:
-    "Free printable restroom cleaning log and checklist for hourly or service-block checks, supplies, issues, corrective actions, signatures, and manager verification.",
+    "Free printable restroom and washroom cleaning log for hourly or service-block checks, supplies, issues, corrective actions, signatures, and manager verification.",
   alternates: { canonical: "/templates/restroom-cleaning-log/" },
 };
 
@@ -55,7 +55,7 @@ export default function Page() {
       <SiteHeader />
       <article className="article-wrap">
         <p className="article-kicker">Free Printable Template</p>
-        <h1>Restroom Cleaning Log & Checklist Template</h1>
+        <h1>Restroom & Washroom Cleaning Log Template</h1>
         <p className="article-lead">
           Use this free restroom cleaning log and checklist to record recurring checks, supplies,
           incidents, corrective actions, signatures, and manager verification. It works for
@@ -101,7 +101,7 @@ export default function Page() {
         </section>
 
         <section>
-          <h2>Bathroom cleaning log vs restroom cleaning log</h2>
+          <h2>Restroom, washroom, bathroom, and toilet cleaning logs</h2>
           <p>
             The same format can be used for guest bathrooms, workplace restrooms, public facilities,
             or customer-facing washrooms. The important part is recording frequency, condition,
