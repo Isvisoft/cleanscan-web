@@ -3,9 +3,9 @@ import Link from "next/link";
 import SiteHeader from "@/components/site-header";
 
 export const metadata: Metadata = {
-  title: "Restaurant Health Inspection Checklist Template",
+  title: "Restaurant Health Inspection Checklist (Free Template)",
   description:
-    "Free restaurant health inspection checklist template with a downloadable cleaning log PDF for cleaning records, corrective actions, and manager review.",
+    "Free restaurant health inspection checklist for cleaning records, kitchen sanitation, restrooms, storage, corrective actions, food safety review, and manager self-inspections.",
   alternates: { canonical: "/templates/restaurant-health-inspection-checklist/" },
 };
 
@@ -52,7 +52,7 @@ export default function Page() {
     <main>
       <SiteHeader />
       <article className="article-wrap">
-        <p className="article-kicker">Template</p>
+        <p className="article-kicker">Free Inspection Template</p>
         <h1>Restaurant Health Inspection Checklist Template</h1>
         <p className="article-lead">
           Use this checklist to review cleaning records, sanitation routines, restroom checks,
@@ -72,7 +72,7 @@ export default function Page() {
         </div>
 
         <section id="health-inspection-checklist-preview">
-          <h2>Health inspection readiness checklist preview</h2>
+          <h2>Restaurant health inspection checklist preview</h2>
           <p>
             The PDF provides a simple paper record for date, time, area, notes, completed-by name,
             signature, and verification when managers review cleaning documentation.
