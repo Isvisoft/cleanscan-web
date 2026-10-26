@@ -63,8 +63,8 @@ export default function Page() {
           <a className="hero-cta" href="/downloads/cleaning-log.pdf" download>
             Download Inspection Log
           </a>
-          <Link className="outline-cta" href="/contact/">
-            Organize Inspection Readiness
+          <Link className="outline-cta" href="/solutions/health-inspection-readiness/">
+            See Inspection Readiness Software
           </Link>
           <a className="outline-cta" href="#health-inspection-checklist-preview">
             View Checklist Preview
@@ -119,6 +119,21 @@ export default function Page() {
           </div>
         </section>
 
+        <section>
+          <h2>Restaurant inspection checklist vs food safety checklist</h2>
+          <p>
+            A restaurant inspection checklist can cover the operational records managers review before an inspection:
+            cleaning logs, kitchen sanitation, restrooms, storage, waste, corrective actions, and follow-up.
+            Food safety procedures may require additional controls depending on your jurisdiction and operation.
+          </p>
+          <p>
+            For cleaning-specific preparation, review what{" "}
+            <Link href="/blog/health-inspection-compliance/what-health-inspectors-look-for-in-cleaning-logs/">
+              health inspectors look for in cleaning logs
+            </Link>.
+          </p>
+        </section>
+
         <section className="article-cta-box">
           <h2>Important note</h2>
           <p>
@@ -133,8 +148,8 @@ export default function Page() {
             CleanScan helps restaurants organize cleaning routines, corrective actions, manager
             reviews, and completion records without relying on paper folders.
           </p>
-          <Link className="hero-cta" href="/contact/">
-            Organize Inspection Readiness
+          <Link className="hero-cta" href="/solutions/health-inspection-readiness/">
+            See Inspection Readiness Software
           </Link>
         </section>
       </article>
