@@ -3,9 +3,9 @@ import Link from "next/link";
 import SiteHeader from "@/components/site-header";
 
 export const metadata: Metadata = {
-  title: "Bar Cleaning Checklist: Free Restaurant Bar Template",
+  title: "Bar & Pub Cleaning Checklist: Free Printable Template",
   description:
-    "Free bar cleaning checklist for restaurants and bars. Covers opening, shift, closing, weekly, equipment, surfaces, floors, waste, and manager verification.",
+    "Free bar and pub cleaning checklist for restaurants, bars, and pubs. Covers opening, shift, closing, weekly, equipment, surfaces, floors, waste, and manager verification.",
   alternates: { canonical: "/templates/bar-cleaning-checklist/" },
 };
 
@@ -46,7 +46,7 @@ export default function Page() {
       <SiteHeader />
       <article className="article-wrap">
         <p className="article-kicker">Free Bar Template</p>
-        <h1>Bar Cleaning Checklist for Restaurants & Bars</h1>
+        <h1>Bar & Pub Cleaning Checklist</h1>
         <p className="article-lead">
           Use this free bar cleaning checklist to organize opening, shift, closing, and weekly
           cleaning across counters, taps, sinks, glassware areas, floors, storage, and equipment.
@@ -59,7 +59,7 @@ export default function Page() {
         </div>
 
         <section>
-          <h2>Restaurant bar cleaning checklist template</h2>
+          <h2>Restaurant bar and pub cleaning checklist template</h2>
           <p>
             A bar has its own cleaning rhythm. Guest-contact surfaces and service equipment need
             repeated attention during shifts, while floors, waste, storage, and harder-to-reach
