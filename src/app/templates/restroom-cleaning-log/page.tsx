@@ -69,7 +69,8 @@ export default function Page() {
           <Link className="outline-cta" href="/solutions/restroom-quality-control/">
             Run Restroom Checks Digitally
           </Link>
-          <a className="outline-cta" href="#restroom-cleaning-log-template">View Template</a>\n          <Link className="outline-cta" href="/templates/bathroom-cleaning-checklist/">Bathroom Cleaning Checklist</Link>
+          <a className="outline-cta" href="#restroom-cleaning-log-template">View Template</a>
+          <Link className="outline-cta" href="/templates/bathroom-cleaning-checklist/">Bathroom Cleaning Checklist</Link>
         </div>
 
         <section id="restroom-cleaning-log-template">
