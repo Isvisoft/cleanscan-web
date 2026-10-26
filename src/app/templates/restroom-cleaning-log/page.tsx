@@ -105,7 +105,10 @@ export default function Page() {
           <p>
             The same format can be used for guest bathrooms, workplace restrooms, public facilities,
             or customer-facing washrooms. The important part is recording frequency, condition,
-            supplies, issues, corrective action, and verification consistently.
+            supplies, issues, corrective action, and verification consistently. For the task list,
+            use the <Link href="/templates/bathroom-cleaning-checklist/">bathroom cleaning checklist</Link>.
+            For timing and frequency, use the{" "}
+            <Link href="/templates/bathroom-cleaning-schedule/">bathroom cleaning schedule</Link>.
           </p>
         </section>
 
