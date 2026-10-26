@@ -5,7 +5,7 @@ import SiteHeader from "@/components/site-header";
 export const metadata: Metadata = {
   title: "Free Restaurant Cleaning Schedule Template | Daily & Weekly",
   description:
-    "Free restaurant cleaning schedule template for daily, weekly, opening, and closing tasks. Assign frequency, owner, and manager verification.",
+    "Free restaurant and cafe cleaning schedule template for daily, weekly, opening, and closing tasks. Assign frequency, owner, manager verification, and food-hygiene cleaning routines.",
   alternates: { canonical: "/templates/restaurant-cleaning-schedule-template/" },
 };
 
