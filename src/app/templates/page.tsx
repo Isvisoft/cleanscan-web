@@ -83,8 +83,12 @@ const templates = [
 ];
 
 const additionalTemplates = [
+  { title: "Bathroom Cleaning Checklist", href: "/templates/bathroom-cleaning-checklist/", description: "Daily, weekly and employee bathroom cleaning tasks for workplaces and public facilities." },
+  { title: "Bathroom Cleaning Schedule", href: "/templates/bathroom-cleaning-schedule/", description: "Time-block, daily and weekly restroom cleaning schedules." },
   { title: "Commercial Cleaning Checklist", href: "/templates/commercial-cleaning-checklist/", description: "Shared facilities, entrances, restrooms and common commercial spaces." },
   { title: "Office Cleaning Checklist", href: "/templates/office-cleaning-checklist/", description: "Workstations, meeting rooms, office kitchens and shared equipment." },
+  { title: "Office Cleaning Schedule", href: "/templates/office-cleaning-schedule/", description: "Daily, weekly and monthly office cleaning by area and frequency." },
+  { title: "Hotel Cleaning & Housekeeping Checklist", href: "/templates/hotel-cleaning-checklist/", description: "Guest-room turnover, bathrooms, amenities, public areas and final inspection." },
   { title: "Kitchen Closing Checklist", href: "/templates/kitchen-closing-checklist/", description: "Back-of-house end-of-shift duties and manager handoff." },
   { title: "Kitchen Cleaning Schedule", href: "/templates/kitchen-cleaning-schedule/", description: "Shift, daily and weekly BOH tasks with ownership." },
 ];
@@ -121,9 +125,9 @@ export default function TemplatesIndexPage() {
         <p className="article-kicker">Template Library</p>
         <h1>Free Cleaning Templates & Logs for Workplaces</h1>
         <p className="article-lead">
-          Choose the cleaning template that matches the job you need to control. Each page below is
-          focused on a specific workflow so you can choose the right resource without mixing
-          different routines together.
+          Choose the cleaning template that matches the workplace and workflow you need to control.
+          The library covers restaurants, bathrooms, offices, commercial facilities, hotels,
+          kitchens, restrooms, opening, closing, inspections, and recurring schedules.
         </p>
         <div className="hero-actions">
           <a className="hero-cta" href="/downloads/cleaning-log.pdf" download>
@@ -166,8 +170,8 @@ export default function TemplatesIndexPage() {
           <p className="article-kicker">More Workplaces and Workflows</p>
           <h2>Bathroom, commercial, office, hotel and kitchen templates</h2>
           <p>
-            Need a routine for an office or shared commercial building, or a narrower kitchen closing
-            or cleaning schedule? Choose a dedicated printable template instead of a restaurant-wide checklist.
+            Need a routine for a bathroom, office, hotel, shared commercial building, or a narrower kitchen workflow?
+            Choose a dedicated template instead of forcing every environment into a restaurant-wide checklist.
           </p>
         </div>
         <div className="cards two template-grid">
@@ -253,7 +257,7 @@ export default function TemplatesIndexPage() {
       <section className="section wrap">
         <div className="section-heading">
           <p className="article-kicker">FAQ</p>
-          <h2>Restaurant cleaning template FAQs</h2>
+          <h2>Cleaning template FAQs</h2>
         </div>
 
         <div className="templates-hub-faq-list">
