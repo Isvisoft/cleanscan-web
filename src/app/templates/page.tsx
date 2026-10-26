@@ -3,9 +3,9 @@ import Link from "next/link";
 import SiteHeader from "@/components/site-header";
 
 export const metadata: Metadata = {
-  title: "Free Restaurant Cleaning Templates & Logs",
+  title: "Free Cleaning Templates & Logs for Workplaces",
   description:
-    "Browse free restaurant cleaning templates by workflow: whole-restaurant, kitchen, restroom, opening, closing, inspection, and recurring task planning.",
+    "Browse free cleaning templates for restaurants, bathrooms, offices, commercial facilities, hotels, kitchens, restrooms, opening, closing, and recurring schedules.",
   alternates: { canonical: "/templates/" },
 };
 
@@ -119,7 +119,7 @@ export default function TemplatesIndexPage() {
 
       <section className="solutions-hero wrap">
         <p className="article-kicker">Template Library</p>
-        <h1>Free Restaurant Cleaning Templates & Logs</h1>
+        <h1>Free Cleaning Templates & Logs for Workplaces</h1>
         <p className="article-lead">
           Choose the cleaning template that matches the job you need to control. Each page below is
           focused on a specific workflow so you can choose the right resource without mixing
@@ -164,7 +164,7 @@ export default function TemplatesIndexPage() {
       <section className="section wrap" id="additional-cleaning-templates">
         <div className="section-heading">
           <p className="article-kicker">More Workplaces and Workflows</p>
-          <h2>Commercial, office and kitchen-specific templates</h2>
+          <h2>Bathroom, commercial, office, hotel and kitchen templates</h2>
           <p>
             Need a routine for an office or shared commercial building, or a narrower kitchen closing
             or cleaning schedule? Choose a dedicated printable template instead of a restaurant-wide checklist.
