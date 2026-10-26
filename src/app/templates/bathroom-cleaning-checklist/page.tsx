@@ -39,7 +39,8 @@ const rows = [
 const faqs = [
   ["What should be included in a bathroom cleaning checklist?", "Include fixtures, sinks, mirrors, supplies, trash, floors, high-touch surfaces, odor, maintenance issues, and a verification step."],
   ["How often should a workplace bathroom be cleaned?", "Frequency should depend on traffic, opening hours, service standards, and local requirements. High-traffic bathrooms may need checks several times per day."],
-  ["Can employees use this checklist?", "Yes. Assign each task or time block to a clear role and add manager verification for critical checks."],\n  ["Can this be used as a washroom or toilet cleaning checklist?", "Yes. Bathroom, washroom, restroom, and toilet are commonly used for the same type of facility in different English-speaking markets. The tasks and verification structure remain the same."],
+  ["Can employees use this checklist?", "Yes. Assign each task or time block to a clear role and add manager verification for critical checks."],
+  ["Can this be used as a washroom or toilet cleaning checklist?", "Yes. Bathroom, washroom, restroom, and toilet are commonly used for the same type of facility in different English-speaking markets. The tasks and verification structure remain the same."],
   ["Can I use this checklist digitally?", "Yes. CleanScan can turn the checklist into recurring tasks with assignments, completion history, overdue visibility, and QR-based cleaning status."],
 ];
 
