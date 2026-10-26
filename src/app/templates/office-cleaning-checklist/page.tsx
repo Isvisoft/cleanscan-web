@@ -76,6 +76,9 @@ export default function Page() {
           <Link className="outline-cta" href="/templates/commercial-cleaning-checklist/">
             Commercial Facility Checklist
           </Link>
+          <Link className="outline-cta" href="/templates/office-cleaning-schedule/">
+            Office Cleaning Schedule
+          </Link>
         </div>
         <p>Example frequencies are adjustable. Follow your cleaning policies and the instructions for each surface or device.</p>
 
@@ -167,7 +170,8 @@ export default function Page() {
           <p>
             If the team needs recurring assignments and completion history across several office
             areas, the <Link href="/cleaning-checklist-app/">cleaning checklist app</Link> can
-            manage the same routine digitally.
+            manage the same routine digitally. For timing and frequency, use the{" "}
+            <Link href="/templates/office-cleaning-schedule/">office cleaning schedule template</Link>.
           </p>
         </section>
 
