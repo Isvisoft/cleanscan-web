@@ -3,9 +3,9 @@ import Link from "next/link";
 import SiteHeader from "@/components/site-header";
 
 export const metadata: Metadata = {
-  title: "Bathroom Cleaning Schedule Template for Workplaces & Businesses",
+  title: "Bathroom Cleaning Schedule Template | Toilet Cleaning Rota",
   description:
-    "Free bathroom cleaning schedule template for workplaces, public restrooms, and commercial facilities. Plan checks by time block, shift, daily, and weekly frequency.",
+    "Free bathroom cleaning schedule template for workplaces, washrooms, public toilets, and commercial facilities. Use it as a toilet cleaning rota or washroom cleaning schedule.",
   alternates: { canonical: "/templates/bathroom-cleaning-schedule/" },
 };
 
@@ -25,7 +25,7 @@ export default function Page() {
       <SiteHeader />
       <article className="article-wrap">
         <p className="article-kicker">Free Schedule Template</p>
-        <h1>Bathroom Cleaning Schedule Template for Workplaces & Businesses</h1>
+        <h1>Bathroom Cleaning Schedule & Toilet Cleaning Rota</h1>
         <p className="article-lead">
           Build a restroom cleaning schedule around traffic and operating hours instead of relying on one end-of-day clean.
           Use time blocks, shifts, daily tasks, and weekly deep cleaning.
