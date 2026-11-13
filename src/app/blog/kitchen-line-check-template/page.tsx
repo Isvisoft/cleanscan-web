@@ -3,9 +3,9 @@ import BlogHeroImage from "@/components/blog-hero-image";
 import SiteHeader from "@/components/site-header";
 
 const image = "/wp-content/uploads/2024/02/cropped-hand-person-holding-paper-clipboard-home-300x200.jpg";
-const title = "Kitchen Line Check Template: What Restaurants Should Track";
+const title = "Kitchen Line Check Template for Restaurants (Free)";
 const description =
-  "Use a kitchen line check template to track cookline readiness, prep surfaces, sanitizer, spills, trash, floors, and manager verification before service.";
+  "Free kitchen line check template for restaurants covering cookline readiness, prep surfaces, sanitizer, spills, trash, floors, and manager verification before service.";
 const canonical = "/blog/kitchen-line-check-template/";
 
 export const metadata: Metadata = {
