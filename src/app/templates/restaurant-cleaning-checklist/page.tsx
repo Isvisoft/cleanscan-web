@@ -71,12 +71,12 @@ const faqs = [
   {
     question: "Can I download this restaurant cleaning checklist as a free PDF?",
     answer:
-      "Yes. Download the free printable cleaning log PDF and use it with the restaurant cleaning checklist on this page to record completion, staff names, notes, and manager verification.",
+      "Yes. Download the free restaurant cleaning checklist PDF directly from this page. It includes tasks, frequencies, owners, completion checks, notes, and manager verification.",
   },
   {
     question: "Is this restaurant cleaning checklist printable?",
     answer:
-      "Yes. The checklist is designed as a printable reference, and the free PDF cleaning log can be used as the completion record.",
+      "Yes. The page includes a dedicated printable restaurant cleaning checklist PDF that can be used as the completion record.",
   },
   {
     question: "What should be included in a restaurant cleaning checklist?",
@@ -108,7 +108,7 @@ export default function Page() {
           waste, high-touch surfaces, and manager verification.
         </p>
         <div className="article-actions">
-          <a className="hero-cta" href="/downloads/cleaning-log.pdf" download>
+          <a className="hero-cta" href="/downloads/restaurant-cleaning-checklist.pdf" download>
             Download Free PDF Cleaning Log
           </a>
           <a className="outline-cta" href="#restaurant-cleaning-checklist-template">
@@ -162,7 +162,7 @@ export default function Page() {
             record the date, time, cleaned area, notes, staff member, signature, and verification.
             This keeps the printable record separate from the schedule itself.
           </p>
-          <a className="hero-cta" href="/downloads/cleaning-log.pdf" download>
+          <a className="hero-cta" href="/downloads/restaurant-cleaning-checklist.pdf" download>
             Download Restaurant Cleaning Log PDF
           </a>
         </section>
