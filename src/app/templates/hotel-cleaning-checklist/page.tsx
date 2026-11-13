@@ -3,9 +3,9 @@ import Link from "next/link";
 import SiteHeader from "@/components/site-header";
 
 export const metadata: Metadata = {
-  title: "Hotel Cleaning & Housekeeping Checklist (Free Template)",
+  title: "Hotel Housekeeping Checklist PDF (Free Printable)",
   description:
-    "Free hotel cleaning and housekeeping checklist for guest rooms, bathrooms, public areas, turnover, supplies, inspections, and manager verification.",
+    "Download a free hotel housekeeping checklist PDF for guest rooms, bathrooms, public areas, turnover, supplies, inspections, and manager verification.",
   alternates: { canonical: "/templates/hotel-cleaning-checklist/" },
 };
 
@@ -50,7 +50,7 @@ export default function Page() {
         </p>
 
         <div className="hero-actions article-actions">
-          <a className="hero-cta" href="/downloads/cleaning-log.pdf" download>Download Printable Cleaning Log</a>
+          <a className="hero-cta" href="/downloads/hotel-housekeeping-checklist.pdf" download>Download Free Housekeeping Checklist PDF</a>
           <Link className="outline-cta" href="/cleaning-checklist-app/">Use the Checklist Digitally</Link>
           <Link className="outline-cta" href="/cleaning-management-software/">See Cleaning Management Software</Link>
         </div>
