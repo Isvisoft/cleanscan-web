@@ -4,9 +4,9 @@ import SiteHeader from "@/components/site-header";
 import PrintTemplateButton from "@/components/print-template-button";
 
 export const metadata: Metadata = {
-  title: "Commercial Cleaning Checklist (Free Printable)",
+  title: "Commercial Cleaning Checklist PDF (Free Printable)",
   description:
-    "Free commercial cleaning checklist template for shared facilities, entrances, restrooms, floors and break rooms. Print the checklist or save it as a PDF.",
+    "Download a free commercial cleaning checklist PDF for shared facilities, entrances, restrooms, floors and break rooms. Printable template for cleaning teams and site managers.",
   alternates: { canonical: "/templates/commercial-cleaning-checklist/" },
 };
 
@@ -69,7 +69,8 @@ export default function Page() {
           managers and cleaning teams who need clear tasks, owners and checks, not a house-cleaning list.
         </p>
         <div className="hero-actions article-actions">
-          <PrintTemplateButton label="Print Checklist / Save as PDF" />
+          <a className="hero-cta" href="/downloads/commercial-cleaning-checklist.pdf" download>Download Free PDF</a>
+          <PrintTemplateButton label="Print Checklist" />
           <a className="outline-cta" href="#commercial-cleaning-checklist">View the Checklist</a>
           <Link className="outline-cta" href="/templates/office-cleaning-checklist/">
             Office-Specific Checklist
