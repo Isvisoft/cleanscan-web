@@ -162,6 +162,7 @@ export default function Page() {
           <h2>Related cleaning software</h2>
           <ul>
             <li><Link href="/cleaning-checklist-app/">Cleaning checklist app</Link></li>
+            <li><Link href="/templates/commercial-cleaning-checklist/">Free commercial cleaning checklist PDF</Link></li>
             <li><Link href="/cleaning-schedule-app/">Cleaning schedule app</Link></li>
             <li><Link href="/solutions/restaurant-cleaning-management/">Restaurant cleaning management software</Link></li>
             <li><Link href="/solutions/restroom-quality-control/">Restroom quality control software</Link></li>
