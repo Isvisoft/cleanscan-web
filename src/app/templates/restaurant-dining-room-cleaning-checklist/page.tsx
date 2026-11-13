@@ -3,9 +3,9 @@ import Link from "next/link";
 import SiteHeader from "@/components/site-header";
 
 export const metadata: Metadata = {
-  title: "Restaurant Dining Room Cleaning Checklist: Free Template",
+  title: "Restaurant Dining Room Cleaning Checklist (Free Printable)",
   description:
-    "Free restaurant dining room cleaning checklist for tables, chairs, floors, high-touch surfaces, service stations, opening, shift, closing, and weekly tasks.",
+    "Free printable restaurant dining room cleaning checklist for tables, chairs, floors, high-touch surfaces, service stations, opening, closing, and weekly FOH tasks.",
   alternates: { canonical: "/templates/restaurant-dining-room-cleaning-checklist/" },
 };
 
