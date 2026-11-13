@@ -3,9 +3,9 @@ import Link from "next/link";
 import SiteHeader from "@/components/site-header";
 
 export const metadata: Metadata = {
-  title: "Restroom & Washroom Cleaning Log (Free Printable)",
+  title: "Free Printable Restroom Cleaning Log PDF",
   description:
-    "Free printable restroom and washroom cleaning log for hourly or service-block checks, supplies, issues, corrective actions, signatures, and manager verification.",
+    "Download a free printable restroom cleaning log PDF for hourly or service-block checks, supplies, issues, corrective actions, signatures, and manager verification.",
   alternates: { canonical: "/templates/restroom-cleaning-log/" },
 };
 
@@ -41,7 +41,7 @@ const faqItems = [
   },
   {
     question: "Can I use this as a free printable restroom cleaning log?",
-    answer: "Yes. The downloadable cleaning log can be printed and used as a restroom sign-off sheet without creating an account.",
+    answer: "Yes. Download the dedicated restroom cleaning log PDF and use it as a printable sign-off sheet without creating an account.",
   },
   {
     question: "Can a restroom cleaning log be digital?",
@@ -63,8 +63,8 @@ export default function Page() {
         </p>
 
         <div className="hero-actions article-actions">
-          <a className="hero-cta" href="/downloads/cleaning-log.pdf" download>
-            Download Free Printable Restroom Log
+          <a className="hero-cta" href="/downloads/restroom-cleaning-log.pdf" download>
+            Download Free Restroom Log PDF
           </a>
           <Link className="outline-cta" href="/solutions/restroom-quality-control/">
             Run Restroom Checks Digitally
